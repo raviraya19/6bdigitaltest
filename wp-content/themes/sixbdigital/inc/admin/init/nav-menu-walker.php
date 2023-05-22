@@ -1,7 +1,7 @@
 <?php 
 
-if (!class_exists('My_Custom_Nav_Walker')) {
-    class My_Custom_Nav_Walker extends Walker_Nav_Menu { 
+if (!class_exists('SixbdigitalCustom_Nav_Walker')) {
+    class SixbdigitalCustom_Nav_Walker extends Walker_Nav_Menu { 
 
         function display_element($element, &$children_elements, $max_depth, $depth = 0, $args, &$output) { 
             if (!$element)
@@ -94,7 +94,7 @@ if (!class_exists('My_Custom_Nav_Walker')) {
 	}
 
 
-    class My_Custom_Nav_Walker_Mobile extends Walker_Nav_Menu { 
+    class SixbdigitalCustom_Nav_Walker_Mobile extends Walker_Nav_Menu { 
 
         function display_element($element, &$children_elements, $max_depth, $depth = 0, $args, &$output) { 
             if (!$element)

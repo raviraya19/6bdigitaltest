@@ -39,7 +39,7 @@
 					 <?php 
 						 $args = array(
 							//'theme_location' => 'primary',    
-							 'walker' => new My_Custom_Nav_Walker(),
+							 'walker' => new SixbdigitalCustom_Nav_Walker(),
 							 'container_class' => 'hidden lg:flex items-center',
 							 'menu_class' => 'sm:ml-8 lg:flex sm:space-x-8 items-center'
 						 );
@@ -123,7 +123,7 @@
 			 <?php 
 				 $args = array(
 					 // 'theme_location' => 'primary',    
-					 'walker' => new My_Custom_Nav_Walker_Mobile(),
+					 'walker' => new SixbdigitalCustom_Nav_Walker_Mobile(),
 					 'container_class' => 'hidden mobile-menu transition-all',
 					 'container_id' => 'mobile-menu',
 					 'menu_class' => 'space-y-1 pb-3 pt-2'
