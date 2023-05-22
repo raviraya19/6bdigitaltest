@@ -11,8 +11,8 @@
 		
 		// register a Hero item block
 		acf_register_block(array(
-			'name'				=> 'hero',
-			'title'				=> __('Hero'),
+			'name'				=> 'hero-slider',
+			'title'				=> __('Hero Slider'),
 			'description'		=> __('A custom block for hero block.'),
 			'render_template'	=> 'template-parts/blocks/block-hero.php',
 			'category'			=> 'layout',

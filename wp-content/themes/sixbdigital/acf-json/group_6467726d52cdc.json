@@ -1,6 +1,6 @@
 {
     "key": "group_6467726d52cdc",
-    "title": "Hero",
+    "title": "Hero Slider",
     "fields": [
         {
             "key": "field_6467726dc5291",
@@ -129,7 +129,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/hero"
+                "value": "acf\/hero-slider"
             }
         ]
     ],
@@ -142,5 +142,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684518474
+    "modified": 1684754064
 }
