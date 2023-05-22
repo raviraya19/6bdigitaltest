@@ -36,7 +36,6 @@
 						 </a>   
 					 <?php endif; ?>           
 				 </div>
-				 <!-- <div class=""> -->
 					 <?php 
 						 $args = array(
 							'theme_location' => 'primary',    
@@ -46,62 +45,6 @@
 						 );
 						 wp_nav_menu( $args ); 
 					 ?>
-					 <!-- <a
-					 href="#"
-					 class="inline-flex items-center px-1 pt-1 text-base font-normal text-gray-500 active"
-					 >Home</a
-					 >
-					 <a
-					 href="#"
-					 class="inline-flex items-center px-1 pt-1 text-base font-normal text-gray-400 hover:text-indigo-500"
-					 >Products</a> 
-					 <div class="relative flex dropdown">
-						 <a href="#" class="inline-flex items-center gap-x-1 text-base font-normal leading-6 hover:text-primary-600 text-gray-500" aria-expanded="false">
-							 <span>Products</span>
-							 <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								 <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-							 </svg>
-						 </a>
-						 <div class="dropdown-menu absolute right-0 top-6 z-10 mt-5 flex w-screen max-w-min px-4">
-							 <div class="w-56 shrink rounded-xl bg-white p-4 text-base font-normal leading-6 text-gray-500 shadow-lg ring-1 ring-gray-900/5">
-								 <a href="#" class="block p-2 hover:text-primary-600">Product One</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Product Two</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Product Three</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Product Four</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Product Five</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Product Six</a>
-							 </div>
-						 </div>
-					 </div>
-					 <a
-					 href="#"
-					 class="inline-flex items-center px-1 pt-1 text-base font-normal text-gray-400 hover:text-indigo-500"
-					 >Resources</a
-					 >
-					 <div class="relative flex dropdown">
-						 <a href="#" class="inline-flex items-center gap-x-1 text-base font-normal leading-6 hover:text-primary-600 text-gray-500" aria-expanded="false">
-							 <span>Resources</span>
-							 <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								 <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-							 </svg>
-						 </a>
-						 <div class="dropdown-menu absolute right-0 top-6 z-10 mt-5 flex w-screen max-w-min px-4">
-							 <div class="w-56 shrink rounded-xl bg-white p-4 text-base font-normal leading-6 text-gray-500 shadow-lg ring-1 ring-gray-900/5">
-								 <a href="#" class="block p-2 hover:text-primary-600">Resource One</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Resource Two</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Resource Three</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Resource Four</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Resource Five</a>
-								 <a href="#" class="block p-2 hover:text-primary-600">Resource Six</a>
-							 </div>
-						 </div>
-					 </div>
-					 <a
-					 href="#"
-					 class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-base font-normal text-gray-500 hover:text-primary-600"
-					 >Pricing</a
-					 > 
-				 </div>-->
 			 </div>
 			 <?php $cta_one_text = get_field("header_cta_one_text", "option"); ?>
 			 <?php $cta_one_link = get_field("header_cta_one_link", "option"); ?>
@@ -177,8 +120,6 @@
 		 </div>
  
 		 <!-- Mobile menu -->
- <!--         <div class="" id="mobile-menu">
-		   <div class="s"> -->
 			 <?php 
 				 $args = array(
 					 // 'theme_location' => 'primary',    
@@ -189,28 +130,6 @@
 				 );
 				 wp_nav_menu( $args ); 
 			 ?>
-			 <!-- <a
-			   href="#"
-			   class="block border-l-4 border-primary-600 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-primary-700"
-			   >Home</a
-			 >
-			 <a
-			   href="#"
-			   class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-			   >Products</a
-			 >
-			 <a
-			   href="#"
-			   class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-			   >Resources</a
-			 >
-			 <a
-			   href="#"
-			   class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
-			   >Pricing</a
-			 > -->
-		   <!-- </div>
-		 </div> -->
 	   </nav>
 	 </header>
 	 <!-- Header Section End Here -->
