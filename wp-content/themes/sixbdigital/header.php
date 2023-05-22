@@ -38,7 +38,7 @@
 				 </div>
 					 <?php 
 						 $args = array(
-							'theme_location' => 'primary',    
+							//'theme_location' => 'primary',    
 							 'walker' => new My_Custom_Nav_Walker(),
 							 'container_class' => 'hidden lg:flex items-center',
 							 'menu_class' => 'sm:ml-8 lg:flex sm:space-x-8 items-center'
