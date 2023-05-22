@@ -45,3 +45,10 @@ Now you're ready to go! The next step is easy to say, but harder to do: make an 
 
 ### Database 
 You can find the database in "database" directory to import.
+
+### WP admin
+
+- In the pages you can fine home page as front end selected.
+- Used Gudenburg Block for Hero Slider
+- Used WP menu to mange the header nav - Appearence->menu
+- There is General Settings Option on the admin nav to change the logo, CTA's etc...
