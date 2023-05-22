@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+/*! Slick Slide */
+@import "../../node_modules/slick-carousel/slick/slick.css";
+@import "../../node_modules/slick-carousel/slick/slick-theme.css";
+
+/*! Colors Override */
+:root {
+  --color-primary-600: #7f56d9;
+  --color-primary-700: #6941c6;
+  --color-gray-500: #667085;
+  --color-gray-900: #101828;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*! Base Styling */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.slick-dots {
+  bottom: 25px !important;
+}
+
+.slick-dots li button {
+  width: 30px;
+  height: 30px;
+}
+
+.slick-dots li button:before {
+  width: 30px !important;
+  height: 30px !important;
+  color: white !important;
+  font-size: 10px !important;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0 !important;
+}
+nav li.active a {
+  color: var(--color-primary-700);
+}
+
+nav .mobile-menu li.active a {
+  border-color: var(--color-primary-700);
+  @apply bg-purple-100;
+}
+
+#menu-primary-menu {
+  display: flex;
+  align-items: center;
+}
