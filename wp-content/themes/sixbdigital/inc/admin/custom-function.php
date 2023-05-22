@@ -27,3 +27,9 @@
  */
 
  include( get_template_directory() . '/inc/admin/init/register-blocks.php' );
+
+ /**
+ * Custom Nav Meu
+ */
+
+ include( get_template_directory() . '/inc/admin/init/nav-menu-walker.php');
