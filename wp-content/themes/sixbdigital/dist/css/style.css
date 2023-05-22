@@ -694,6 +694,16 @@ img, video {
   margin-right: auto;
 }
 
+.my-3 {
+  margin-top: .75rem;
+  margin-bottom: .75rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .-mr-2 {
   margin-right: -.5rem;
 }
@@ -2106,6 +2116,11 @@ img, video {
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2751,6 +2766,10 @@ nav .mobile-menu li.active a {
     padding-right: 1.5rem;
   }
 
+  .sm\:text-center {
+    text-align: center;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -2759,6 +2778,10 @@ nav .mobile-menu li.active a {
 @media (min-width: 768px) {
   .md\:w-36 {
     width: 9rem;
+  }
+
+  .md\:text-center {
+    text-align: center;
   }
 }
 
@@ -2796,6 +2819,10 @@ nav .mobile-menu li.active a {
   .lg\:py-0 {
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
 

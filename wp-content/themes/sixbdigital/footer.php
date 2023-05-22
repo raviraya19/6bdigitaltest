@@ -11,7 +11,7 @@
 
 ?>
 </main>
-	<footer id="colophon" class="site-footer flex">
+	<footer id="colophon" class="flex flex-shrink-0 text-gray-900 justify-center text-center text-xl font-medium my-4">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sixbdigital' ) ); ?>">
 				<?php

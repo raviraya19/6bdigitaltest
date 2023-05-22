@@ -13,7 +13,7 @@
                 ?>
                 <div>
                     <div class="grid lg:grid-cols-2 h-screen">
-                            <div class="flex items-center h-full w-full px-6 lg:px-0 lg:max-w-xl mx-auto">
+                            <div class="flex items-center text-center h-full w-full px-6 lg:px-0 lg:text-left lg:max-w-xl mx-auto">
                                 <div class="pt-32 py-28 lg:py-0">
                                     <?php if(!empty($sub_title)): ?>
                                         <h6 class="font-medium text-base mb-2"><?php echo $sub_title; ?></h6>
